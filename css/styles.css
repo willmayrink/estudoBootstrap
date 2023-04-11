@@ -1,0 +1,50 @@
+/* Geral */
+body   {
+    font-family: 'Roboto', sans-serif;
+}
+
+.rows  {
+    margin:0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li{
+    color: #242424;
+    font-size:14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar{
+    background-color:#353D41
+}
+
+#nav-container{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#logo{
+    width: 75px;
+    height: 56px;
+}
+
+.navbar-brand{
+    padding:0;
+    color:#FFF
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expanded-lg .navbar-nav .nav-link{
+    padding: 1rem, .8rem; /*rem trabalha com o tamanho da fonte*/
+}
