@@ -19,7 +19,7 @@ p, li{
 /* Barra de Navegação */
 
 header, .navbar{
-    background-color:#353D41
+    background-color:#343a40;
 }
 
 #nav-container{
@@ -47,4 +47,8 @@ header, .navbar{
 
 .navbar-expanded-lg .navbar-nav .nav-link{
     padding: 1rem, .8rem; /*rem trabalha com o tamanho da fonte*/
+}
+
+.invert{
+    filter: invert(100%);
 }
