@@ -45,11 +45,14 @@ header, .navbar{
     color: #FFF;
 }
 
-.navbar-expanded-lg .navbar-nav .nav-link{
-    padding: 1rem, .8rem;
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem;
     /*rem trabalha com o tamanho da fonte*/
 }
 
 .invert{
     filter: invert(100%);
+}
+.bg-sliderNew{
+    background-color: #343a40;
 }

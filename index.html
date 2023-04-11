@@ -21,7 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/favicon2.ico" type="image/x-icon"/>
+    <link rel="icon" href="img/favicon2.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -29,27 +29,52 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <a href="#" class="navbar-brand">
-                    <img id="logo" class="invert" src="img/logo.svg" alt="">Willian Mayrink
+                    <img id="logo" class="invert" src="img/logo.svg" alt=""> Willian Mayrink
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-targer="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon">
                     </span>
                 </button>
-                    <div class="collapse navbar-collapse justify-content-end margin" id="navbar-links">
-                        <div class="navbar-nav">
-                            <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
-                            <a href="#" class="nav-item nav-link" id="skills-menu">Skills</a>
-                            <a href="#" class="nav-item nav-link" id="projects-menu">Projetos</a>
-                            <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
-                        </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#" class="nav-item nav-link" id="skills-menu">Skills</a>
+                        <a href="#" class="nav-item nav-link" id="projects-menu">Projetos</a>
+                        <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
+                </div>
 
-                
+
             </nav>
 
         </div>
     </header>
+    <main>
+        <div class="container-fluid bg-sliderNew">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="mainSlider" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="mainSlider" data-slide-to="1">
+                    </li>
+                    <li data-target="mainSlider" data-slide-to="2">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.jpg" class="d-block w-100" style="opacity: 0.2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Teste 1!</h2>
+                            <p style="color:#FFF">Teste de parágrafo</p>
+                            <a href="#" class="main-btn">Button</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="js/script.js"></script>
 </body>
 
